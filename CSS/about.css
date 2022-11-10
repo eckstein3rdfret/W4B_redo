@@ -1,0 +1,342 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'pokemontxt';
+    src: url(/Website4beginners/fonts/pokemon-emerald.ttf);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: magenta;
+}
+body{
+    background-color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.sidebarL{
+    height: 100vh;
+    width: 10%;
+    background-color: black;
+    position: fixed;
+}
+main{
+    background-color: black;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+}
+section{
+    background-color: rgb(168, 164, 164);
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.Main{
+    background-image: url(/Website4beginners/img/Pokeballwallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: .5%;
+}
+section h1{
+    color: rgb(226, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+section p{
+    color: rgb(226, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.row{
+    margin-bottom: 5%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column{
+    float: left;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    margin: 0 0 0 2.5%;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif; 
+}
+.column h1{
+    text-align: center;
+}
+.column ul{
+    list-style-type: none;
+}
+#top{
+    margin-top: 10%;
+}
+#bottom{
+    margin-top: 30%;
+}
+#sub1{
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+#sub2{
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+#sub3{
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+#sub4{
+    float: right;
+    text-align: center;
+    display: inline-block;
+}
+div.sidebarR{
+    height: 100vh;
+    width: 10%;
+    background-color: black;
+    float: right;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+#div1{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    margin-top: 35%;
+    text-align: justify;
+    /*border: black;
+    border-style: dashed;*/
+}
+#div2{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    margin-top: 65%;
+    /*border: black;
+    border-style: dashed;*/
+}
+#div3{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    margin-top: 35%;
+    margin-left: -60%;
+    /*border: black;
+    border-style: dashed;*/
+}
+#div4{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    margin-top: 65%;
+    margin-left: -60%;
+    /*border: black;
+    border-style: dashed;*/
+}
+#foot{
+    background-color: black;
+    width: 80%;
+    height: 155px;
+    margin-left: 10%;
+    margin-right: 0%;
+    position: fixed;
+    bottom: 0px;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-shadow: 1px 3px 4px rgb(68, 68, 68);
+    clear: both;
+}
+#parent1{
+    background-color: #ff0000;
+    width: 100%;
+    height: 98%;
+    border-radius: 25px;
+    border-style: solid;
+    box-shadow: 2px 2px 2px 2px black inset;
+    display: inline-block;
+}
+#parent1a{
+    background-color: rgb(3, 117, 70);
+    width: 94%;
+    height: 93%;
+    border-radius: 20px;
+    margin-top: .6%;
+    margin-left: 3%;
+    box-shadow: 1px 1px 1px 1px #ff0000 inset;
+}
+#parent1a p{
+    color: rgb(226, 224, 224);
+    font-size: 32px;
+    margin: 0;
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#parent2{
+    background-color: rgb(226, 224, 224);
+    height: 96%;
+    width: 39%;
+    margin-top: .35%;
+    /*float: right;*/
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+}
+#battlemenu1{
+    display: inline-block;
+    margin-left: 10%;
+    height: 90%;
+}
+#battlemenu2{
+    float: right;
+    margin-right: 20%;
+    height: 90%;
+}
+.region{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    margin-bottom: 5%;
+    clear: both; 
+}
+.region_text{
+    height: 100%;
+    width: 45%;
+    border: none;
+    margin: 2%;
+    font-size: large;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    float: left;
+    text-align: center;
+}
+.region_img1{
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Website4beginners/img/Kanto_HGSS_Art.webp);
+    float: right;
+}
+.region_text2{
+    height: 100%;
+    width: 45%;
+    border: none;
+    margin: 2%;
+    font-size: large;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    float: right;
+    text-align: center;
+}
+.region_img2{
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Website4beginners/img/Johto_HGSSmap-1038x576.png);
+    float: left;
+}
+.region_img3{
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Website4beginners/img/800px-Hoenn_ORAS.webp);
+    float: right;
+}
+.battles{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+.battles div{
+    text-align: center;
+    width: 32%;
+    height: fit-content;
+}
+.battles_img{
+    height: fit-content;
+    width: fit-content;
+}
+.eveelution{
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Website4beginners/img/Eeveelutions.webp);
+    float: right;
+}
+.championimg{
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Website4beginners/img/champions.avif);
+    float: right;
+}
+.champion{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    margin-bottom: 19%;
+    clear: both; 
+}
