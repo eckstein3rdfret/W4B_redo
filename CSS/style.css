@@ -133,16 +133,14 @@ div.sidebarR{
 #battlemenu1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 10%;
-    margin-top: 2.5%;
-    height: 80%;
+    height: 100%;
 }
 #battlemenu2{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 20%;
-    margin-top: 2.5%;
-    height: 80%;
+    height: 100%;
 }
